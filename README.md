@@ -30,9 +30,9 @@ To verify that a new user can register successfully, see their email in the head
 - The product name in the cart matches the selected one.
 
 ## Run Locally
-npm install
-npx playwright install
-npx playwright test
+- npm install
+- npx playwright install
+- npx playwright test
 
 ## Notes
 This repo uses environment variables, so be sure not to share your .env file.
