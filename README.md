@@ -1,12 +1,7 @@
-# Demo Webshop - Playwright Automation Tests
+# Demo Webshop - readme file
 
 ## Test Purpose
 To verify that a new user can register successfully, see their email in the header, and add a random product from the "Digital Downloads" section to their shopping cart. The test ensures the product added appears correctly in the cart.
-
-## Validation Criteria
-- After registration, the user's email appears in the top header.
-- After selecting a random product and clicking "Add to cart", it appears in the shopping cart.
-- The product name in the cart matches the selected one.
 
 ##  Preconditions
 - Node.js and Playwright installed
@@ -27,8 +22,12 @@ To verify that a new user can register successfully, see their email in the head
 10. Verify the product name matches
 
 ## Post-Conditions
-* No actual data cleanup is needed (this is a public demo site).
-* A future version may include test cleanup for user accounts or cart reset if needed.
+* No actual data cleanup is needed.
+
+## Validation Criteria
+- After registration, the user's email appears in the top header.
+- After selecting a random product and clicking "Add to cart", it appears in the shopping cart.
+- The product name in the cart matches the selected one.
 
 ## Run Locally
 npm install
